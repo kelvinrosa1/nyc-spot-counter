@@ -1,0 +1,62 @@
+body {
+    background-image: url("https://t3.ftcdn.net/jpg/03/17/57/46/360_F_317574665_lzCMo5A9G5Nm2vKQK1BT6RWMuMbYuVpW.jpg");
+    background-size: cover;
+    font-family: Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    border: 5px solid white;
+    max-width: 400px;
+    padding: 10px 5px 10px 5px;
+    background-color: aliceblue;
+    opacity: 0.8;
+    box-shadow: 0px 0px 6px white;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: black;
+}
+
+#increment-btn:hover {
+    background: darkgray;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+#save-btn:hover {
+    background: green;
+}
+
